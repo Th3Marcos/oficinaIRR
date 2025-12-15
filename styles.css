@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(fotos/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #8f8f8fe1;
+    text-align: center;
+}
+
+div {
+    margin-bottom: 20px;
+    background-color: #fffccde6;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #333 2px 2px 5px;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    background-color: rgba(255, 52, 52, 0.900);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: #333 2px 2px 5px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 30px;
+    background-color: rgba(255, 52, 52, 0.900);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+    text-align: center;
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.a {
+    margin-bottom: 20px;
+    background-color: rgba(206, 206, 206, 0.900);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #333 2px 2px 5px;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background-color: rgba(206, 206, 206, 0.900);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #333 2px 2px 5px;
+}
+
+.c {
+    max-width: 100px;
+    margin-bottom: 20px;
+    background-color: rgba(206, 206, 206, 0.900);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #333 2px 2px 5px;
+}
+
+.d {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: rgba(206, 206, 206, 0.900);
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: #333 2px 2px 5px;
+    animation: glow 3s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px 255, 252, 205 0 0 15px #fffccde6, 0 0 30px #fffccde6;
+    }
+
+    to {
+        box-shadow: 0 0 20px #fffccde6, 0 0 40px #fffccde6, 0 0 60px #fffccde6;
+    }
+}
+
+.button {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 52, 52, 0.900);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: #333 2px 2px 5px;
+    margin-top: 20px;
+    text-decoration: solid;
+}
+
+.button:hover {
+    background-color: rgba(206, 206, 206, 0.900);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #000;
+    font-weight: bold;
+}
